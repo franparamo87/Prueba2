@@ -1,0 +1,10 @@
+platform :ios, '9.1'
+use_frameworks!
+
+def common_pods
+    pod 'Alamofire', '~> 4.4'
+end
+
+target 'EjercicioHasten' do
+    common_pods
+end
