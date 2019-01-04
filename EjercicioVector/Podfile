@@ -1,0 +1,10 @@
+platform :ios, '10.0'
+use_frameworks!
+
+def common_pods
+    pod 'Alamofire', '~> 4.4'
+end
+
+target 'EjercicioVector' do
+    common_pods
+end
